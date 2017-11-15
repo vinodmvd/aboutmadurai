@@ -14,6 +14,37 @@ body{
   width: 1349px;
   margin: 0 auto;
 }
+@media screen and (max-width: 992px){
+ .upper-container{
+   float:right;
+   width:120%;
+ }
+ .page-scroll{
+   position: relative;
+   left: -269px;
+ }
+ .slogan{
+   float:right;
+ }
+.nav{
+  position: relative;
+  right: 618px;
+  width: 952px;
+}
+#navigation{
+  right:0;
+}
+ul.nav{
+  position: relative;
+left: -111px;
+  width:900px;
+}
+.width-container{
+  float:right;
+  width:35%
+}
+}
+
 
 #wholepage{
   width: 900px;
