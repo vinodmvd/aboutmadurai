@@ -14,37 +14,6 @@ body{
   width: 1349px;
   margin: 0 auto;
 }
-@media screen and (max-width: 992px){
- .upper-container{
-   float:right;
-   width:120%;
- }
- .page-scroll{
-   position: relative;
-   left: -269px;
- }
- .slogan{
-   float:right;
- }
-.nav{
-  position: relative;
-  right: 618px;
-  width: 952px;
-}
-#navigation{
-  right:0;
-}
-ul.nav{
-  position: relative;
-left: -111px;
-  width:900px;
-}
-.width-container{
-  float:right;
-  width:35%
-}
-}
-
 
 #wholepage{
   width: 900px;
@@ -350,4 +319,58 @@ footer{
   background: white;
   color: black;
   padding: 12px;
+}
+
+@media screen and (max-width: 992px){
+ .upper-container{
+   float:right;
+   width:120%;
+ }
+ .page-scroll{
+   position: relative;
+   left: -269px;
+ }
+ .slogan{
+   float:right;
+ }
+
+#navigation{
+  position: absolute;
+  right:0;
+}
+ul.nav{
+  position: relative;
+left: -111px;
+  width:900px;
+}
+.width-container{
+  float:right;
+  width:35%
+}
+.slides1>img, .slides2>img, .slides3>img, .slides4>img {
+  width: 358px;
+  height: 370px;
+  position: relative;
+  top: 107px;
+  left: -172px;
+}
+.tab-content .container {
+  width: 346px;
+  position: relative;
+  bottom: 263px;
+  left: 201px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 370px;
+  padding: 0px 20px;
+  margin-bottom: 2cm;
+}
+#btn1 {
+    left: -254px;
+    top: -32px;
+}
+#btn2 {
+    right: -535px;
+    top: -32px;
+}
 }
