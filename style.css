@@ -1,0 +1,375 @@
+
+
+body{
+  font-family: 'Oswald', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.upper-container{
+  background: url(img/Madurai.jpg) no-repeat top center;
+  background-size: cover;
+  float: none;
+  width: 100%;
+}
+
+.width-container{
+  width: 1349px;
+  margin: 0 auto;
+}
+
+
+#wholepage{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  text-align: center;
+  padding: 70px;
+  margin: 0px;
+}
+
+/*Insta,twitter*/
+
+div.img-right {
+  text-align: right;
+  padding: 10px 30px;
+}
+
+.img-right span{
+  float: left;
+  position: relative;
+  left: 640px;
+  cursor: pointer;
+}
+
+.img-right>a:hover{
+  opacity: 0.2;
+}
+/*bootstrap overwrite */
+
+.intro{
+  width: 100%;
+  position: relative;
+}
+
+#intro.intro{
+  padding: 100px 0 100px 0;
+}
+/*navigation*/
+
+.nav{
+  height: 47px;
+}
+
+.nav ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav ul li a{
+  float: left;
+  text-decoration: none;
+  color: black;
+  padding: 0px 40px;
+  text-align: center;
+  line-height: 42px;
+  height: 48.5px;
+  margin-left: 21px;
+}
+
+.nav ul li:not(.active) a:hover{
+  color: #d43076;
+}
+
+.nav ul li.active a{
+  border-bottom: 5px solid rgb(26, 111, 197);
+}
+
+/*Tooltip1 restaurant*/
+#tooltip1 .tooltip-content1{
+  visibility: hidden;
+  text-align: center;
+  border-radius: 9px;
+  padding: 1px;
+  background: darkslateblue;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: 180px;
+  left: 14px;
+  width: 180px;
+  line-height: 25px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+#tooltip1 .tooltip-content1::after, .tooltip-content2::after, .tooltip-content3::after, .tooltip-content4::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: darkslateblue transparent transparent transparent;
+}
+
+li:hover:not(.active) #tooltip1 .tooltip-content1{
+  visibility: visible;
+  opacity: 1;
+}
+
+.fit-tooltip1{
+  position: relative;
+  bottom: 307px;
+  left: -55px;
+}
+
+/*tooltip2 temple */
+
+#tooltip2 .tooltip-content2{
+  visibility: hidden;
+  text-align: center;
+  border-radius: 9px;
+  padding: 1px;
+  background: darkslateblue;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: 199px;
+  left: 196px;
+  width: 180px;
+  line-height: 25px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+li:hover:not(.active) #tooltip2 .tooltip-content2{
+  visibility: visible;
+  opacity: 1;
+}
+
+.fit-tooltip2{
+  position: relative;
+  bottom: 276px;
+  right: 251px;
+}
+
+/*tooltip3 otherplaces */
+#tooltip3 .tooltip-content3{
+  visibility: hidden;
+  text-align: center;
+  border-radius: 9px;
+  padding: 1px;
+  background: darkslateblue;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: 179px;
+  left: 389px;
+  width: 180px;
+  line-height: 25px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+li:hover:not(.active) #tooltip3 .tooltip-content3{
+  visibility: visible;
+  opacity: 1;
+}
+
+.fit-tooltip3{
+  position: relative;
+  bottom: 307px;
+  right: 418px;
+}
+
+/*tooltip-content4 highlights */
+#tooltip4 .tooltip-content4{
+  visibility: hidden;
+  text-align: center;
+  border-radius: 9px;
+  padding: 1px;
+  background: darkslateblue;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: 177px;
+  left: 209px;
+  width: 180px;
+  line-height: 25px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+li:hover:not(.active) #tooltip4 .tooltip-content4{
+  visibility: visible;
+  opacity: 1;
+}
+
+.fit-tooltip4{
+  position: relative;
+  bottom: 307px;
+  right: 251px;
+}
+
+/* Content display */
+.tab-content{
+  position: relative;
+  height: 670px;
+}
+.tab-content>.tab-pane{
+  display:none;
+}
+.tab-content>.active{
+  display:block;
+}
+
+.tab-content .tab-pane p{
+  font-family: 'Varela Round', sans-serif;
+  text-align: justify;
+  line-height: 30px;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 15px;
+}
+/*Location */
+
+.bottom-container{
+  position: absolute;
+  top: 473px;
+  left: 125px;
+}
+
+.container h4{
+   display: inline-block;
+}
+
+
+/* Image slider display */
+.tab-content .container {
+  width: 479px;
+  position: relative;
+  bottom: 395px;
+  left: 337px;
+  overflow: hidden;
+  height: 506px;
+  padding: 0px 20px;
+  margin-bottom: 2cm;
+}
+
+.slides1, .slides2, .slides3, .slides4{
+  height: 300px;
+}
+
+.slides1>img, .slides2>img, .slides3>img, .slides4>img {
+  width: 650px;
+  height: 500px;
+  position: relative;
+  top: 107px;
+  left: 123px;
+}
+
+button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    right: 1160px;
+    color: white;
+}
+
+#btn1{
+  left: 39px;
+  top: 42px;
+}
+
+#btn2{
+  right: -1208px;
+  top: 50px;
+}
+
+footer{
+  text-align: right;
+  background: white;
+  color: black;
+  padding: 12px;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 992px){
+ .upper-container{
+   float:right;
+   width:120%;
+ }
+ .page-scroll{
+   position: relative;
+   left: -269px;
+ }
+ .slogan{
+   float:right;
+ }
+
+#navigation{
+  position: absolute;
+  right:0;
+}
+ul.nav{
+  position: relative;
+left: -111px;
+  width:900px;
+}
+.width-container{
+  float:right;
+  width:35%
+}
+.slides1>img, .slides2>img, .slides3>img, .slides4>img {
+  width: 358px;
+  height: 370px;
+  position: relative;
+  top: 107px;
+  left: -172px;
+}
+.tab-content .container {
+  width: 346px;
+  position: relative;
+  bottom: 263px;
+  left: 201px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 370px;
+  padding: 0px 20px;
+  margin-bottom: 2cm;
+}
+#btn1 {
+    left: -254px;
+    top: -32px;
+}
+#btn2 {
+    right: -535px;
+    top: -32px;
+}
+}
+
+@media screen and (max-width: 599px){
+  .upper-container{
+    width: 435px;
+    height: 525px;
+  }
+  .page-scroll{
+    position: relative;
+    top: -6px;
+    left: 11px;
+    width: 414px;
+  }
+  .slogan>img{
+    width: 320px;
+    position: relative;
+    right: 458px;
+  }
+}
