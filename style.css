@@ -357,6 +357,9 @@ left: -111px;
 }
 
 @media screen and (max-width: 599px){
+  body{
+    width: 360px;
+  }
   .upper-container{
     width: 360px;
     height: 516px;
@@ -377,7 +380,6 @@ left: -111px;
   .slogan>img{
     width: 320px;
     position: relative;
-    right: 501px;
   }
   .navbar-header{
         width: 1205px;
