@@ -377,6 +377,7 @@ left: -111px;
   .slogan>img{
     width: 320px;
     position: relative;
+    right: 501px;
   }
   .navbar-header{
         width: 1205px;
@@ -385,9 +386,9 @@ left: -111px;
     height: 41px;
   }
   #navigation{
-    position: absolute;
-    right: 0;
+    position: relative;
     height: 49px;
+    left: 0px;
   }
   ul.nav{
     position: relative;
@@ -440,6 +441,6 @@ left: -111px;
   }
   .navbar-header>button{
     position: relative;
-    right: 311px;
+    right: 283px;
   }
 }
