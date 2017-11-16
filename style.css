@@ -361,15 +361,85 @@ left: -111px;
     width: 360px;
     height: 516px;
   }
+  .width-container{
+    width: 391px;
+    margin-left: -31px;
+  }
+  div.img-right{
+    padding: 10px 0;
+  }
   .page-scroll{
     position: relative;
     top: -6px;
-    left: -23px;
-    width: 414px;
+    left: 19px;
+    width: 372px;
   }
   .slogan>img{
     width: 320px;
     position: relative;
-    right: 501px;
+  }
+  .navbar-header{
+        width: 1205px;
+  }
+  .navbar-header .fa {
+    height: 41px;
+  }
+  #navigation{
+    position: absolute;
+    right: 0;
+    height: 49px;
+  }
+  ul.nav{
+    position: relative;
+  left: -111px;
+    width:9px;
+  }
+  .navbar-collapse{
+    position: relative;
+    bottom: 52px;
+    left: 36px;
+    width: 308px;
+  }
+  .slides1>img, .slides2>img, .slides3>img, .slides4>img{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 70px;
+    left: 84px;
+  }
+  .tab-content .container {
+    width: 265px;
+    position: relative;
+    bottom: -104px;
+    left: 7px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 200px;
+    padding: 0px 20px;
+    margin-bottom: 2cm;
+   }
+   button {
+    position: relative;
+    width: 25px;
+    height: 35px;
+    right: 1160px;
+   }
+   #btn1 {
+    left: 42px;
+    top: -30px;
+   }
+   #btn2 {
+    right: -324px;
+    top: -30px;
+   }
+   .navbar-header {
+    width: 359px;
+    right: 15px;
+    position: relative;
+    top: -2;
+  }
+  .navbar-header>button{
+    position: relative;
+    right: 311px;
   }
 }
