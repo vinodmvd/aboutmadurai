@@ -374,3 +374,21 @@ left: -111px;
     top: -32px;
 }
 }
+
+@media screen and (max-width: 599px){
+  .upper-container{
+    width: 435px;
+    height: 525px;
+  }
+  .page-scroll{
+    position: relative;
+    top: -6px;
+    left: 11px;
+    width: 414px;
+  }
+  .slogan>img{
+    width: 320px;
+    position: relative;
+    right: 458px;
+  }
+}
