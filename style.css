@@ -294,6 +294,10 @@ button {
   top: 50px;
 }
 
+.btn{
+  background: #b9b9b9;
+}
+
 footer{
   text-align: right;
   background: white;
